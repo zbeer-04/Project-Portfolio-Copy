@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Critical Data Analysis - Your Name</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="subpage.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <h1 class="logo"><a href="index.html">Your Name</a></h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="critical-analysis.html" class="active">Critical Analysis</a></li>
+                <li><a href="alternatives.html">Alternatives</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Critical Data Analysis</h1>
+            <p class="page-subtitle">Data audit, visualization, and harm analysis</p>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="content-wrapper">
+                
+                <!-- Data Availability & Methodology -->
+                <div class="content-block">
+                    <h2>Data Availability & Methodology</h2>
+                    
+                    <div class="methodology-section">
+                        <h3>Data Collection</h3>
+                        <p><strong>How is the data collected?</strong> Describe the collection methods, tools, and processes.</p>
+                        <p><strong>What data is collected?</strong> List the specific variables, fields, and types of information gathered.</p>
+                    </div>
+                    
+                    <div class="methodology-section">
+                        <h3>Data Analysis & Use</h3>
+                        <p><strong>How is the data analyzed?</strong> Explain the analytical methods and techniques used.</p>
+                        <p><strong>How is the data used?</strong> Describe how the analysis informs decisions, policies, or actions.</p>
+                    </div>
+                    
+                    <!-- For Algorithm Projects -->
+                    <div class="methodology-section algorithm-specific">
+                        <h3>Training Data (For Algorithm Projects)</h3>
+                        <p><strong>Where does the training data come from?</strong></p>
+                        <p><strong>What's included or excluded?</strong></p>
+                        <p><strong>Who labeled the data?</strong> Consider how labeling decisions shape the algorithm.</p>
+                    </div>
+                </div>
+
+                <!-- extra white space between sections -->
+                <p> <br> </p>
+
+
+                <!-- Data Audit -->
+                <div class="content-block">
+                    <h2>Data Audit</h2>
+                    <p>Document your technical analysis of the dataset. Include:</p>
+                    
+                    <div class="audit-section">
+                        <h3>Data Cleaning & Preprocessing</h3>
+                        <p>Describe the steps you took to clean and prepare the data:</p>
+                        <ul>
+                            <li>Missing data handling</li>
+                            <li>Outlier detection and treatment</li>
+                            <li>Data transformation or normalization</li>
+                            <li>Variable creation or recoding</li>
+                        </ul>
+                        
+                        <div class="code-example">
+                            <h4>Code Snippet (Optional)</h4>
+                            <pre><code># Example: Show key data cleaning steps
+# You can include screenshots of your code or embed it here
+import pandas as pd
+df = pd.read_csv('data.csv')
+# ... your analysis code ...</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="audit-section">
+                        <h3>Statistical Summary</h3>
+                        <div class="stats-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Variable</th>
+                                        <th>N</th>
+                                        <th>Mean/Mode</th>
+                                        <th>Std Dev</th>
+                                        <th>Min</th>
+                                        <th>Max</th>
+                                        <th>Missing (%)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Variable 1</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Variable 2</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- extra white space between sections -->
+                <p> <br> </p>
+
+
+                <!-- Data Cleaning Reflection -->
+                <div class="content-block">
+                    <h2>Data Cleaning Reflection</h2>
+                    <div class="reflection-box">
+                        <p>Reflect critically on the decisions you made during data processing:</p>
+                        <ul>
+                            <li><strong>What assumptions did you make?</strong> How might these assumptions introduce bias?</li>
+                            <li><strong>What choices did you face?</strong> (e.g., how to handle missing data, outliers, categorization)</li>
+                            <li><strong>Who might be harmed by these decisions?</strong> Consider how your choices might affect different groups.</li>
+                            <li><strong>What alternatives did you consider?</strong> Why did you choose your approach?</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- extra white space between sections -->
+                <p> <br> </p>
+
+
+                <!-- Visualization Analysis -->
+                <div class="content-block">
+                    <h2>Visualization Analysis</h2>
+                    <p><em>Choose one: Either critically examine 3 existing visualizations OR create 2 new visualizations</em></p>
+                    
+                    <div class="viz-analysis">
+                        <h3>Visualization 1</h3>
+                        <div class="visualization-placeholder">
+                            <img src="images/viz-1.png" alt="Visualization 1">
+                            <p class="caption">Figure 1: [Description of visualization]</p>
+                        </div>
+                        
+                        <div class="viz-critique">
+                            <h4>What story does it tell?</h4>
+                            <p>Analyze what narrative or message this visualization communicates.</p>
+                            
+                            <h4>What story does it hide?</h4>
+                            <p>Critically examine what is obscured, minimized, or excluded from this visualization.</p>
+                            
+                            <h4>Design Choices</h4>
+                            <ul>
+                                <li>Color choices and their implications</li>
+                                <li>Scale and axis decisions</li>
+                                <li>What's included vs. excluded</li>
+                                <li>Who is the intended audience?</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="viz-analysis">
+                        <h3>Visualization 2</h3>
+                        <div class="visualization-placeholder">
+                            <img src="images/viz-2.png" alt="Visualization 2">
+                            <p class="caption">Figure 2: [Description of visualization]</p>
+                        </div>
+                        
+                        <div class="viz-critique">
+                            <h4>What story does it tell?</h4>
+                            <p>Analyze what narrative or message this visualization communicates.</p>
+                            
+                            <h4>What story does it hide?</h4>
+                            <p>Critically examine what is obscured, minimized, or excluded from this visualization.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="viz-analysis">
+                        <h3>Visualization 3 (if analyzing existing visualizations)</h3>
+                        <div class="visualization-placeholder">
+                            <img src="images/viz-3.png" alt="Visualization 3">
+                            <p class="caption">Figure 3: [Description of visualization]</p>
+                        </div>
+                        
+                        <div class="viz-critique">
+                            <h4>What story does it tell?</h4>
+                            <p>Analyze what narrative or message this visualization communicates.</p>
+                            
+                            <h4>What story does it hide?</h4>
+                            <p>Critically examine what is obscured, minimized, or excluded from this visualization.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- extra white space between sections -->
+                <p> <br> </p>
+
+                <!-- FOR DATA INITIATIVE PROJECTS -->
+                <div class="content-block data-initiative-section">
+                    <h2>Algorithmic Implications (Data Initiative Projects)</h2>
+                    <div class="harm-analysis">
+                        <p>If this data was fed into an algorithm, who would be harmed?</p>
+                        
+                        <div class="harm-item">
+                            <h4>Potential Harm 1</h4>
+                            <p>Describe a specific way this data could cause harm if used algorithmically.</p>
+                            <p><strong>Connection to readings:</strong> Link to course concepts (e.g., data feminism principles, power structures, etc.)</p>
+                        </div>
+                        
+                        <div class="harm-item">
+                            <h4>Potential Harm 2</h4>
+                            <p>Describe another potential harm.</p>
+                            <p><strong>Connection to readings:</strong> Link to course concepts.</p>
+                        </div>
+                        
+                        <div class="harm-item">
+                            <h4>Potential Harm 3</h4>
+                            <p>Describe a third potential harm.</p>
+                            <p><strong>Connection to readings:</strong> Link to course concepts.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- extra white space between sections -->
+                <p> <br> </p>
+
+                <!-- FOR ALGORITHM PROJECTS -->
+                <div class="content-block algorithm-section">
+                    <h2>Algorithm Logic Analysis (Algorithm Projects)</h2>
+                    
+                    <div class="logic-analysis">
+                        <h3>Decision-Making Process</h3>
+                        <p><strong>How does the system make decisions?</strong> Describe the algorithmic logic and decision rules.</p>
+                        <p><strong>What is it being optimized for?</strong> Identify the objective function or goal the algorithm pursues.</p>
+                        
+                        <h3>Logic Flowchart</h3>
+                        <div class="visualization-placeholder">
+                            <img src="images/logic-flowchart.png" alt="Algorithm Logic Flowchart">
+                            <p class="caption">Figure: Decision-making flowchart showing how the algorithm processes inputs and generates outputs</p>
+                        </div>
+                    </div>
+                    
+                    <div class="harm-analysis">
+                        <h3>Intersectional Harm Documentation</h3>
+                        <p>Analyze how this system creates compounded harm across multiple dimensions of identity and power.</p>
+                        
+                        <div class="harm-item">
+                            <h4>Harm Analysis 1</h4>
+                            <p>Describe a specific harm and how it compounds across intersecting identities (e.g., race + gender, class + disability, etc.)</p>
+                            <p><strong>Connection to readings:</strong> Link to course concepts about intersectionality and data justice.</p>
+                        </div>
+                        
+                        <div class="harm-item">
+                            <h4>Harm Analysis 2</h4>
+                            <p>Describe another intersectional harm.</p>
+                            <p><strong>Connection to readings:</strong> Link to course concepts.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- extra white space between sections -->
+                <p> <br> </p>
+
+                <!-- References -->
+                <div class="content-block">
+                    <h2>References</h2>
+                    <ol class="references-list">
+                        <li>Author, A. (Year). Title of work. <em>Journal Name</em>, volume(issue), pages.</li>
+                        <li>Author, B. (Year). Title of work. <em>Journal Name</em>, volume(issue), pages.</li>
+                        <li>[Continue with at least 8 sources total, including those from Part 1]</li>
+                    </ol>
+                </div>
+
+                <!-- extra white space between sections -->
+                <p> <br> </p>
+                
+
+                <!-- Navigation Buttons -->
+                <div class="page-navigation">
+                    <a href="introduction.html" class="btn btn-outline">← Previous: Introduction</a>
+                    <a href="alternatives.html" class="btn btn-secondary">Next: Counter-Data Alternatives →</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Your Name. Data Justice Research Portfolio.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
